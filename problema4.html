@@ -1,0 +1,10 @@
+<meta charset="UTF-8">
+<script>
+    //Peça para o usuário informar o salário atual e a porcentagem de aumento. Faça o cálculo do salário final após o aumento baseado na porcentagem informada e apresente o resultado.
+    const salario = Number(prompt("Insira seu salário atual."))
+    const porcentagem = Number(prompt("Insira a porcentagem de aumento do seu salário."))
+    const resultado1 = porcentagem / 100
+    const resultado2 = salario * resultado1
+    const resultado3 = resultado2 + salario
+    document.write (`Seu salário passará de R$${salario},00 para R$${resultado3},00`)
+</script>

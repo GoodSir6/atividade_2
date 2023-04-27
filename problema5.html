@@ -1,0 +1,11 @@
+<meta charset="UTF-8">
+<script>
+    //Peça para o usuário informar o preço de um produto e também informar qual a porcentagem de desconto que será aplicado no preço do produto.
+    //Faça o cálculo do preço final do produto após aplicar a porcentagem de desconto e apresente o resultado.
+    const produto = Number(prompt("Insira o preço de um produto."))
+    const porcentagem = Number(prompt("Insira a porcentagem de desconto do seu produto."))
+    const resultado1 = porcentagem / 100
+    const resultado2 = produto * resultado1
+    const resultado3 = produto - resultado2
+    document.write (`Seu produto passará a valer R$${resultado3},00`)
+</script>

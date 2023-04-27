@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+<script>
+    // Peça para o usuário informar uma data em dias com horas, minutos e segundos e retorne a data em segundos.
+    const dias = Number(prompt("Insira uma data em dias,"));
+    const horas = Number(prompt("horas,"));
+    const minutos = Number(prompt("minutos"));
+    const segundos = Number(prompt("e segundos."));
+    const resultado1 = dias * 24 * 60 * 60
+    const resultado2 = horas * 60 * 60
+    const resultado3 = minutos * 60
+    const resultado4 = segundos + resultado3 + resultado2 + resultado1
+    document.write (`Este valor em segundos é igual a ${resultado4}.`);
+</script>
